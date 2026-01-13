@@ -1,0 +1,116 @@
+download_url_us	https://gh.h233.eu.org/https://github.com	美国
+download_url_us	https://rapidgit.jjda.de5.net/https://github.com	美国
+download_url_us	https://gh.ddlc.top/https://github.com	美国
+download_url_us	https://gh-proxy.org/https://github.com	美国
+download_url_us	https://cdn.gh-proxy.org/https://github.com	其他
+download_url_us	https://edgeone.gh-proxy.org/https://github.com	其他
+download_url_us	https://ghproxy.it/https://github.com	美国
+download_url_us	https://github.boki.moe/https://github.com	美国
+download_url_us	https://gh-proxy.net/https://github.com	美国
+download_url_us	https://gh.jasonzeng.dev/https://github.com	美国
+download_url_us	https://gh.monlor.com/https://github.com	美国
+download_url_us	https://fastgit.cc/https://github.com	美国
+download_url_us	https://github.tbedu.top/https://github.com	美国
+download_url_us	https://firewall.lxstd.org/https://github.com	美国
+download_url_us	https://github.ednovas.xyz/https://github.com	美国
+download_url_us	https://ghfile.geekertao.top/https://github.com	美国
+download_url_us	https://ghp.keleyaa.com/https://github.com	美国
+download_url_us	https://gh.chjina.com/https://github.com	美国
+download_url_us	https://ghpxy.hwinzniej.top/https://github.com	美国
+download_url_us	https://cdn.crashmc.com/https://github.com	美国
+download_url_us	https://git.yylx.win/https://github.com	美国
+download_url_us	https://gitproxy.mrhjx.cn/https://github.com	美国
+download_url_us	https://ghproxy.cxkpro.top/https://github.com	美国
+download_url_us	https://gh.xxooo.cf/https://github.com	美国
+download_url_us	https://github.limoruirui.com/https://github.com	美国
+download_url_us	https://gh.idayer.com/https://github.com	美国
+download_url_us	https://gh.llkk.cc/https://github.com	美国
+download_url_us	https://down.npee.cn/?https://github.com	美国
+download_url_us	https://raw.ihtw.moe/github.com	美国
+download_url_us	https://xget.xi-xu.me/gh	美国
+download_url_us	https://dgithub.xyz	美国
+download_url_us	https://gh.nxnow.top/https://github.com	美国
+download_url_us	https://gh.zwy.one/https://github.com	美国
+download_url_us	https://ghproxy.monkeyray.net/https://github.com	美国
+download_url_us	https://gh.xx9527.cn/https://github.com	美国
+download_url_us	https://ghfast.top/https://github.com	其他
+download_url_us	https://wget.la/https://github.com	其他
+download_url_us	https://gitclone.com	国内
+download_url_us	https://kkgithub.com	香港
+download_url_us	https://wget.la/https://github.com	香港
+download_url_us	https://hk.gh-proxy.org/https://github.com	香港
+download_url_us	https://ghfast.top/https://github.com	韩国
+download_url_us	https://githubfast.com	韩国
+download_url_us	ssh://git@ssh.github.com:443/	Github 原生
+download_url_us	https://raw.githubusercontent.com	Github 原生
+download_url_us	https://raw.kkgithub.com	香港 1
+download_url_us	https://wget.la/https://raw.githubusercontent.com	香港 2
+download_url_us	https://hk.gh-proxy.org/https://raw.githubusercontent.com	香港 3
+download_url_us	https://hub.glowp.xyz/https://raw.githubusercontent.com	香港 4
+download_url_us	https://ghfast.top/https://raw.githubusercontent.com	韩国
+download_url_us	https://gh.catmak.name/https://raw.githubusercontent.com	韩国
+download_url_us	https://fastly.jsdelivr.net/gh	日本 1
+download_url_us	https://cdn.gh-proxy.org/https://raw.githubusercontent.com	日本 2
+download_url_us	https://g.blfrp.cn/https://raw.githubusercontent.com	日本 3
+download_url_us	https://github.3x25.com/https://raw.githubusercontent.com	新加坡
+clone_url	https://gitclone.com	国内
+clone_url	https://kkgithub.com	香港
+clone_url	https://wget.la/https://github.com	香港
+clone_url	https://hk.gh-proxy.org/https://github.com	香港
+clone_url	https://ghfast.top/https://github.com	韩国
+clone_url	https://githubfast.com	韩国
+clone_url	ssh://git@ssh.github.com:443/	Github 原生
+clone_url	https://raw.githubusercontent.com	Github 原生
+clone_url	https://raw.kkgithub.com	香港 1
+clone_url	https://wget.la/https://raw.githubusercontent.com	香港 2
+clone_url	https://hk.gh-proxy.org/https://raw.githubusercontent.com	香港 3
+clone_url	https://hub.glowp.xyz/https://raw.githubusercontent.com	香港 4
+clone_url	https://ghfast.top/https://raw.githubusercontent.com	韩国
+clone_url	https://gh.catmak.name/https://raw.githubusercontent.com	韩国
+clone_url	https://fastly.jsdelivr.net/gh	日本 1
+clone_url	https://cdn.gh-proxy.org/https://raw.githubusercontent.com	日本 2
+clone_url	https://g.blfrp.cn/https://raw.githubusercontent.com	日本 3
+clone_url	https://github.3x25.com/https://raw.githubusercontent.com	新加坡
+clone_ssh_url	ssh://git@ssh.github.com:443/	Github 原生
+clone_ssh_url	https://raw.githubusercontent.com	Github 原生
+clone_ssh_url	https://raw.kkgithub.com	香港 1
+clone_ssh_url	https://wget.la/https://raw.githubusercontent.com	香港 2
+clone_ssh_url	https://hk.gh-proxy.org/https://raw.githubusercontent.com	香港 3
+clone_ssh_url	https://hub.glowp.xyz/https://raw.githubusercontent.com	香港 4
+clone_ssh_url	https://ghfast.top/https://raw.githubusercontent.com	韩国
+clone_ssh_url	https://gh.catmak.name/https://raw.githubusercontent.com	韩国
+clone_ssh_url	https://fastly.jsdelivr.net/gh	日本 1
+clone_ssh_url	https://cdn.gh-proxy.org/https://raw.githubusercontent.com	日本 2
+clone_ssh_url	https://g.blfrp.cn/https://raw.githubusercontent.com	日本 3
+clone_ssh_url	https://github.3x25.com/https://raw.githubusercontent.com	新加坡
+raw_url	https://raw.githubusercontent.com	Github 原生
+raw_url	https://raw.kkgithub.com	香港 1
+raw_url	https://wget.la/https://raw.githubusercontent.com	香港 2
+raw_url	https://hk.gh-proxy.org/https://raw.githubusercontent.com	香港 3
+raw_url	https://hub.glowp.xyz/https://raw.githubusercontent.com	香港 4
+raw_url	https://ghfast.top/https://raw.githubusercontent.com	韩国
+raw_url	https://gh.catmak.name/https://raw.githubusercontent.com	韩国
+raw_url	https://fastly.jsdelivr.net/gh	日本 1
+raw_url	https://cdn.gh-proxy.org/https://raw.githubusercontent.com	日本 2
+raw_url	https://g.blfrp.cn/https://raw.githubusercontent.com	日本 3
+raw_url	https://github.3x25.com/https://raw.githubusercontent.com	新加坡
+download_url	https://ghfast.top/https://github.com	其他
+download_url	https://wget.la/https://github.com	其他
+download_url	https://gitclone.com	国内
+download_url	https://kkgithub.com	香港
+download_url	https://wget.la/https://github.com	香港
+download_url	https://hk.gh-proxy.org/https://github.com	香港
+download_url	https://ghfast.top/https://github.com	韩国
+download_url	https://githubfast.com	韩国
+download_url	ssh://git@ssh.github.com:443/	Github 原生
+download_url	https://raw.githubusercontent.com	Github 原生
+download_url	https://raw.kkgithub.com	香港 1
+download_url	https://wget.la/https://raw.githubusercontent.com	香港 2
+download_url	https://hk.gh-proxy.org/https://raw.githubusercontent.com	香港 3
+download_url	https://hub.glowp.xyz/https://raw.githubusercontent.com	香港 4
+download_url	https://ghfast.top/https://raw.githubusercontent.com	韩国
+download_url	https://gh.catmak.name/https://raw.githubusercontent.com	韩国
+download_url	https://fastly.jsdelivr.net/gh	日本 1
+download_url	https://cdn.gh-proxy.org/https://raw.githubusercontent.com	日本 2
+download_url	https://g.blfrp.cn/https://raw.githubusercontent.com	日本 3
+download_url	https://github.3x25.com/https://raw.githubusercontent.com	新加坡
