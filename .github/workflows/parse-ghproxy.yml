@@ -1,4 +1,4 @@
-name: 解析 GitHub 加速地址
+name: Parse GHProxy
 
 # 触发条件：
 # 1. 每天定时执行（UTC 时间 0 点，北京时间 8 点）
@@ -11,34 +11,38 @@ on:
   # 可选：监听原脚本仓库更新（需要 GitHub App 权限）
   # repository_dispatch:
   #   types: [script_updated]
-
+# 赋予 contents 写入权限（允许 push 代码）
+permissions:
+  contents: write
 jobs:
   parse-proxy:
     runs-on: ubuntu-latest
     steps:
-      - name: 检出代码
+      - name: checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-      - name: 设置 Node.js 环境
+      - name: setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
 
-      - name: 下载目标脚本
+      - name: dwonload original script
         run: |
           mkdir -p temp
           curl -fsSL https://github.com/XIU2/UserScript/raw/master/GithubEnhanced-High-Speed-Download.user.js -o temp/ghproxy.user.js
-          echo "脚本下载完成"
+          echo "downloaded original script to temp/ghproxy.user.js"
 
-      - name: 执行解析脚本
+      - name: execute parser script
         run: |
           # 初始化 Node.js 环境（如果需要依赖）
           npm init -y && npm install jsdom --save-dev
           node scripts/parser.js
-          echo "解析完成，结果已输出到 dist 目录"
+          echo "parsed and generated dist/"
 
-      - name: 提交解析结果
+      - name: submit changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
@@ -46,8 +50,9 @@ jobs:
           git add -f dist/
           # 仅在有变更时提交
           if git diff --cached --quiet; then
-            echo "没有新的加速地址变更，无需提交"
+            echo "No changes to commit"
           else
-            git commit -m "chore: 更新加速地址 $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
+            git commit -m "chore: update acceleration address $(date +'%Y-%m-%d %H:%M:%S')"
+            git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           fi
+          shell: /usr/bin/bash -e {0}
