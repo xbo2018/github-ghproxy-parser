@@ -1,0 +1,16 @@
+{
+  "name": "github-ghproxy-parser",
+  "version": "1.0.0",
+  "description": "自动解析 各类 GitHub 加速地址，输出结构化的 JSON/文本文件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jsdom": "^27.4.0"
+  }
+}
