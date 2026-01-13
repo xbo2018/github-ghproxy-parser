@@ -121,8 +121,13 @@ const proxyTypes = [
   { name: 'download_url', filename: 'download_url.json' }
 ];
 
-// 3. 存储所有加速地址的汇总
-const allProxies = [];
+// 3. 初始化结构化汇总对象（核心修改：以 type 为 key）
+const structuredAllProxies = {};
+// 初始化所有类型的空数组，避免 key 缺失
+proxyTypes.forEach(type => {
+  structuredAllProxies[type.name] = [];
+});
+
 
 // 4. 循环解析每个数组（复用预处理后的内容，避免重复处理）
 proxyTypes.forEach(type => {
@@ -133,30 +138,32 @@ proxyTypes.forEach(type => {
     JSON.stringify(proxies, null, 2),
     'utf8'
   );
-  // 加入汇总数组（添加类型标识）
-  proxies.forEach(proxy => {
-    allProxies.push({
-      type: type.name,
-      ...proxy
-    });
-  });
+  structuredAllProxies[type.name] = proxies;
   console.log(`✅ 解析 ${type.name} 完成，共 ${proxies.length} 个有效地址`);
 });
 
 // 5. 写入汇总文件（便于第三方统一调用）
 fs.writeFileSync(
   path.join(distDir, 'all_proxies.json'),
-  JSON.stringify(allProxies, null, 2),
+  JSON.stringify(structuredAllProxies, null, 2),
   'utf8'
 );
 
-// 6. 额外生成便于 bash 读取的纯文本格式（可选）
-const txtContent = allProxies.map(p => `${p.type}\t${p.url}\t${p.region}`).join('\n');
+const allProxiesTxt = [];
+Object.keys(structuredAllProxies).forEach(type => {
+  const proxies = structuredAllProxies[type];
+  proxies.forEach(proxy => {
+    // 格式化：类型\t地址\t地区（去除换行符，便于单行读取）
+    const line = `${type}\t${proxy.url}\t${proxy.region.replace(/\n/g, ' ')}`;
+    allProxiesTxt.push(line);
+  });
+});
 fs.writeFileSync(
   path.join(distDir, 'all_proxies.txt'),
-  txtContent,
+  allProxiesTxt.join('\n'),
   'utf8'
 );
 
-console.log(`🎉 所有解析完成！总计 ${allProxies.length} 个有效加速地址`);
-console.log(`📁 结果已输出到 ${distDir} 目录`);
+console.log(`✅ 所有文件生成完成！
+- 结构化汇总文件：${path.join(distDir, 'all_proxies.json')}
+- 便捷读取的 TXT 文件：${path.join(distDir, 'all_proxies.txt')}`);
