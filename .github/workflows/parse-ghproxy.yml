@@ -55,4 +55,4 @@ jobs:
             git commit -m "chore: update acceleration address $(date +'%Y-%m-%d %H:%M:%S')"
             git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           fi
-          shell: /usr/bin/bash -e {0}
+        shell: /usr/bin/bash -e {0}
