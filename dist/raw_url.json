@@ -5,23 +5,18 @@
     "description": "[日本 东京]\n\n - 缓存：无（或很短）"
   },
   {
-    "url": "https://raw.kkgithub.com",
-    "region": "香港 1",
-    "description": "[中国香港、日本、新加坡等] - 该公益加速源由 [help.kkgithub.com] 提供\n\n - 缓存：有"
-  },
-  {
     "url": "https://wget.la/https://raw.githubusercontent.com",
-    "region": "香港 2",
+    "region": "香港 1",
     "description": "[中国香港、中国台湾、日本、美国等]（CDN 不固定） - 该公益加速源由 [ucdn.me] 提供\n\n - 缓存：无（或很短）"
   },
   {
     "url": "https://hk.gh-proxy.org/https://raw.githubusercontent.com",
-    "region": "香港 3",
+    "region": "香港 2",
     "description": "[中国香港] - 该公益加速源由 [gh-proxy.com] 提供\n\n - 缓存：有（官方注明 2 小时）"
   },
   {
     "url": "https://hub.glowp.xyz/https://raw.githubusercontent.com",
-    "region": "香港 4",
+    "region": "香港 3",
     "description": "[中国香港] - 该公益加速源由 [hub.glowp.xyz] 提供\n\n - 缓存：有"
   },
   {
@@ -48,10 +43,5 @@
     "url": "https://g.blfrp.cn/https://raw.githubusercontent.com",
     "region": "日本 3",
     "description": "[日本 东京] - 该公益加速源由 [g.blfrp.cn] 提供"
-  },
-  {
-    "url": "https://github.3x25.com/https://raw.githubusercontent.com",
-    "region": "新加坡",
-    "description": "[新加坡] - 该公益加速源由 [github.3x25.com] 提供"
   }
 ]

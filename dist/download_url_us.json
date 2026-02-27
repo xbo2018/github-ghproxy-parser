@@ -155,11 +155,6 @@
     "description": "[美国 Cloudflare CDN] - 该公益加速源由 [github.com/xixu-me/Xget] 提供"
   },
   {
-    "url": "https://dgithub.xyz",
-    "region": "美国",
-    "description": "[美国 西雅图] - 该公益加速源由 [dgithub.xyz] 提供"
-  },
-  {
     "url": "https://gh.nxnow.top/https://github.com",
     "region": "美国",
     "description": "[美国 洛杉矶] - 该公益加速源由 [gh.nxnow.top] 提供"

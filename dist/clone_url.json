@@ -5,11 +5,6 @@
     "description": "[中国 国内] - 该公益加速源由 [GitClone] 提供\n\n - 缓存：有\n - 首次比较慢，缓存后较快"
   },
   {
-    "url": "https://kkgithub.com",
-    "region": "香港",
-    "description": "[中国香港、日本、新加坡等] - 该公益加速源由 [help.kkgithub.com] 提供"
-  },
-  {
     "url": "https://wget.la/https://github.com",
     "region": "香港",
     "description": "[中国香港、中国台湾、日本、美国等]（CDN 不固定） - 该公益加速源由 [ucdn.me] 提供"
